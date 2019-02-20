@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="server.c" />
+    <ClCompile Include="libs\cserver.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\csocket.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\cpool.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\clinklist.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\chttp.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\cstring.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\cutils.c">
+      <Filter>libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{a5eaf4ac-92db-43ef-a6c1-a04e29bd5704}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libs\cserver.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\csocket.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\serdef.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\cpool.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\clinklist.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\chttp.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\cstring.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\cutils.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
